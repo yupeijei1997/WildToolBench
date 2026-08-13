@@ -1,3 +1,5 @@
+
+
 # Benchmarking LLM Tool-Use in the Wild
 
 
@@ -81,7 +83,7 @@ python3 -u -m wtb.eval_runner --model=deepseek-chat
 
 ### ⚡️ Quickstart
 
-Taking the example where all agents use deepseek-chat as the base model, and generate data in English. First, refer to .env.example, create a .env file, and set the following keys.
+To generate English data using `deepseek-chat` as the base model for all agents, first refer to `.env.example` and create a `.env` file in the `multi-agent-framework/` directory with the following keys:
 
 ```bash
 DEEPSEEK_API_KEY=sk-XXXXXX
